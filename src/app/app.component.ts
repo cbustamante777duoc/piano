@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'piano';
 
  /**
-  * function que va a reproducir los sonidos que van a ser enviados del html
-  * @param numero lo recibe desde ell html
+  * function que va a reproducir los sonidos que van a ser enviados desde el html
+  * @param numero lo recibe el parametro que esta en el html
   */
   aplicarSonido(numero: number):void{
     const audio = new Audio();//instance
